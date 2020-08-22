@@ -63,7 +63,6 @@ body {
 }
 #ball2 {
   left: 27%;
-  height: 120px;
   z-index: -3;
   background-color: #ffffff;
 }
@@ -82,7 +81,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 #about-text p {
-  font-weight: 700;
+  font-weight: 600;
 }
 .dot {
   display: inline-block;
@@ -126,37 +125,28 @@ body {
 1201px and more — Extra large screens, TV.
 */
 @media only screen and (min-width: 769px) {
+  .ui.menu {
+    padding-bottom: 0;
+  }
+  .ui.menu img {
+    display: block;
+  }
   .ball {
     display: inline-block;
     width: 300px;
     height: 200px;
-    border-radius: 150px 150px 0 0;
-    background-color: #f6b595;
-    background-image: radial-gradient(
-        circle 400px at 0 0,
-        rgba(0, 0, 0, 0),
-        rgba(0, 0, 0, 0),
-        rgba(0, 0, 0, 0.8)
-      ),
-      radial-gradient(
-        circle 180px at 90px 80px,
-        rgba(255, 255, 255, 0.7),
-        rgba(0, 0, 0, 0)
-      );
-    background-repeat: no-repeat, no-repeat;
-    position: absolute;
   }
   #ball1 {
     left: 20%;
-    z-index: -1;
   }
   #ball2 {
     left: 37%;
-    z-index: -3;
     background-color: #ffffff;
   }
   #ball3 {
     left: 50%;
-    z-index: -2;
+  }
+  #about-text {
+    max-width: 25% !important;
   }
 }
