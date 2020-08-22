@@ -35,7 +35,7 @@ body {
 .ball {
   display: inline-block;
   width: 100px;
-  height: 50px;
+  height: 100px;
   border-radius: 150px 150px 0 0;
   background-color: #f6b595;
   background-image: radial-gradient(
@@ -119,7 +119,7 @@ body {
 1025px — 1200px: Desktops, large screens.
 1201px and more — Extra large screens, TV.
 */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   .ball {
     display: inline-block;
     width: 300px;
