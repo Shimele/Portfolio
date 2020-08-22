@@ -58,16 +58,16 @@ body {
   position: absolute;
 }
 #ball1 {
-  left: 17%;
+  left: 15%;
   z-index: -1;
 }
 #ball2 {
-  left: 34%;
+  left: 32%;
   z-index: -3;
   background-color: #ffffff;
 }
 #ball3 {
-  left: 47%;
+  left: 45%;
   z-index: -2;
 }
 #about {
