@@ -12,6 +12,9 @@ body {
   background-color: #fbdaca;
   color: rgb(252, 136, 78);
 }
+.ui.menu img {
+  display: none;
+}
 .ui.menu .item {
   color: #ffffff;
   font-weight: 600;
