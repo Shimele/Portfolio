@@ -11,6 +11,7 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #fbdaca;
   color: rgb(252, 136, 78);
+  padding-bottom: 10%;
 }
 .ui.menu img {
   display: none;
