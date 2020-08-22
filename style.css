@@ -71,6 +71,7 @@ body {
   z-index: -2;
 }
 #about {
+  margin-right: 0;
   margin-top: 11.8%;
   padding-top: 5%;
   background-color: #ffffff;
