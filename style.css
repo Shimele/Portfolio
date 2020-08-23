@@ -77,7 +77,6 @@ body {
   background-color: #ffffff;
 }
 #about-text {
-  max-width: 80% !important;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
 }
