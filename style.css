@@ -106,10 +106,10 @@ body {
 #second-about .ten.wide {
   max-width: 30%;
 }
-#second-about .ten.wide h4 {
+#design h4,
+#develop h4 {
   font-family: "Montserrat", sans-serif;
-  font-size: 50px;
-  font-weight: 500;
+  font-weight: 700;
   color: rgb(252, 136, 78);
 }
 #second-about h4 {
