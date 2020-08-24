@@ -79,8 +79,8 @@ body {
   opacity: 0.1;
 }
 #ball5 {
-  width: 100px;
-  height: 100px;
+  width: 180px;
+  height: 180px;
   left: 45%;
   border-radius: 50%;
   opacity: 0.1;
@@ -201,7 +201,7 @@ button i {
   color: rgb(252, 136, 78);
 }
 .footer-dot {
-  margin-right: 10%;
+  margin-right: 5%;
   display: inline-block;
   width: 15px;
   height: 15px;
