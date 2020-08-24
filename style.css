@@ -141,6 +141,13 @@ button a {
   text-decoration: none;
   color: #ffffff;
 }
+#footer {
+  height: 10%;
+}
+#footer i {
+  padding-right: 5%;
+  color: rgb(252, 136, 78);
+}
 /* Media Queries
 320px — 480px: Mobile devices.
 481px — 768px: iPads, Tablets.
