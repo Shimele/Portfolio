@@ -94,24 +94,7 @@ body {
   opacity: 0.1;
 }
 #ball7 {
-  width: 200px;
-  height: 200px;
-  left: 10%;
-  border-radius: 50%;
-  opacity: 0.1;
-  animation-duration: 3s;
-  animation-name: slidein;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-  }
-
-  to {
-    margin-left: 0%;
-  }
+  display: none;
 }
 #about {
   margin-right: 0;
@@ -237,6 +220,27 @@ button i {
   }
   #ball3 {
     left: 50%;
+  }
+  #ball7 {
+    display: block;
+    width: 200px;
+    height: 200px;
+    left: 10%;
+    border-radius: 50%;
+    opacity: 0.1;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+    }
+
+    to {
+      margin-left: 0%;
+    }
   }
   #about-text {
     max-width: 25% !important;
