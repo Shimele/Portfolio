@@ -80,7 +80,7 @@ body {
 #ball5 {
   width: 200px;
   height: 200px;
-  left: 70%;
+  left: 60%;
   border-radius: 50%;
   opacity: 0.1;
 }
@@ -168,8 +168,16 @@ button a {
   background-color: #000000;
 }
 #footer i {
-  margin-right: 5%;
   color: rgb(252, 136, 78);
+}
+.footer-dot {
+  margin-right: 5%;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #f6b595;
+  opacity: 0.2;
 }
 /* Media Queries
 320px — 480px: Mobile devices.
