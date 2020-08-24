@@ -111,6 +111,7 @@ body {
   height: 15px;
   border-radius: 50%;
   background-color: #f6b595;
+  opacity: 0.5;
 }
 .whaticando h1 {
   font-family: "Indie Flower", cursive;
