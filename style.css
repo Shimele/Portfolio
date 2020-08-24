@@ -78,8 +78,8 @@ body {
   opacity: 0.1;
 }
 #ball5 {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   left: 45%;
   border-radius: 50%;
   opacity: 0.1;
@@ -167,6 +167,10 @@ button .ui.animated a {
 }
 button i {
   color: #ffffff;
+}
+#call {
+  color: rgb(252, 136, 78);
+  font-family: "Montserrat", sans-serif;
 }
 #footer {
   width: 100% !important;
