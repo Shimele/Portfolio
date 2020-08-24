@@ -70,6 +70,20 @@ body {
   left: 40%;
   z-index: -2;
 }
+#ball4 {
+  width: 200px;
+  height: 200px;
+  left: 10%;
+  border-radius: 50%;
+  opacity: 0.1;
+}
+#ball5 {
+  width: 200px;
+  height: 200px;
+  left: 70%;
+  border-radius: 50%;
+  opacity: 0.1;
+}
 #about {
   margin-right: 0;
   margin-top: 11.8%;
@@ -142,10 +156,11 @@ button a {
   color: #ffffff;
 }
 #footer {
-  height: 10%;
+  width: 100% !important;
+  background-color: #000000;
 }
 #footer i {
-  padding-right: 5%;
+  margin-right: 5%;
   color: rgb(252, 136, 78);
 }
 /* Media Queries
