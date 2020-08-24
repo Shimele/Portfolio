@@ -137,6 +137,10 @@ body {
   font-weight: 700;
   color: rgb(252, 136, 78);
 }
+button a {
+  text-decoration: none;
+  color: #ffffff;
+}
 /* Media Queries
 320px — 480px: Mobile devices.
 481px — 768px: iPads, Tablets.
