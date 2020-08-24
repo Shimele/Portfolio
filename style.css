@@ -80,14 +80,14 @@ body {
 #ball5 {
   width: 200px;
   height: 200px;
-  left: 50%;
+  left: 45%;
   border-radius: 50%;
   opacity: 0.1;
 }
 #ball6 {
   width: 200px;
   height: 200px;
-  left: 10%;
+  left: 7%;
   bottom: 5%;
   border-radius: 50%;
   opacity: 0.1;
