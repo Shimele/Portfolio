@@ -80,7 +80,7 @@ body {
 #ball5 {
   width: 200px;
   height: 200px;
-  left: 60%;
+  left: 50%;
   border-radius: 50%;
   opacity: 0.1;
 }
@@ -159,8 +159,12 @@ body {
   font-weight: 700;
   color: rgb(252, 136, 78);
 }
-button a {
+button .ui.animated a {
   text-decoration: none;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+button i {
   color: #ffffff;
 }
 #footer {
@@ -171,7 +175,7 @@ button a {
   color: rgb(252, 136, 78);
 }
 .footer-dot {
-  margin-right: 5%;
+  margin-right: 10%;
   display: inline-block;
   width: 15px;
   height: 15px;
