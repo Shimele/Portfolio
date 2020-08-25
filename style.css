@@ -18,6 +18,13 @@ body {
 .ui.menu img {
   display: none;
 }
+.ui.menu a:hover {
+  color: #ffffff;
+}
+.ui.menu a:active {
+  background-color: none;
+  color: #f6b595;
+}
 .ui.menu .item {
   color: #ffffff;
   font-weight: 600;
