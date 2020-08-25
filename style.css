@@ -19,10 +19,11 @@ body {
   display: none;
 }
 .ui.menu a:hover {
-  color: #ffffff;
+  text-decoration: none;
+  color: #ffffff !important;
 }
 .ui.menu a:active {
-  background-color: none;
+  background: none !important;
   color: #f6b595;
 }
 .ui.menu .item {
@@ -30,7 +31,6 @@ body {
   font-weight: 600;
   font-size: large;
 }
-
 #introduction {
 }
 
