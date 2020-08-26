@@ -137,17 +137,16 @@ body {
 #second-about p {
   padding-top: 5%;
 }
-#second-about .ten.wide {
-  max-width: 30%;
-}
 #design h4,
 #develop h4 {
+  margin-top: 5%;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: rgb(252, 136, 78);
 }
-#develop {
+#develop, #design {
   margin-bottom: 5%;
+  font-family: "Montserrat", sans-serif;
 }
 #second-about h4 {
   font-family: "Montserrat", sans-serif;
@@ -155,9 +154,6 @@ body {
   font-weight: 500;
   line-height: 1.1;
   background-color: #f6b595;
-}
-#second-about .six.wide {
-  max-width: 30%;
 }
 .wecandothis h1 {
   font-family: "Indie Flower", cursive;
@@ -168,8 +164,11 @@ body {
 }
 .available {
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  color: rgb(252, 136, 78);
+  font-size: 20px;
+}
+#available-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
 }
 button .ui.animated a {
   text-decoration: none;
@@ -206,7 +205,9 @@ button i {
 1025px — 1200px: Desktops, large screens.
 1201px and more — Extra large screens, TV.
 */
-@media only screen and (min-width: 769px) {
+
+/*481px — 768px: iPads, Tablets.*/
+@media only screen and (min-width: 768px) {
   .ui.menu {
     padding-bottom: 0;
   }
@@ -219,14 +220,20 @@ button i {
     height: 200px;
   }
   #ball1 {
-    left: 20%;
+    left: 15%;
   }
   #ball2 {
-    left: 37%;
-    background-color: #ffffff;
+    left: 32%;
   }
   #ball3 {
-    left: 50%;
+    left: 45%;
+  }
+  #ball5 {
+    width: 200px;
+    height: 200px;
+    left: 75%;
+    border-radius: 50%;
+    opacity: 0.2;
   }
   #ball7 {
     display: block;
@@ -242,7 +249,7 @@ button i {
   }
   @keyframes slidein {
     from {
-      margin-left: 100%;
+      margin-left: 60%;
     }
 
     to {
@@ -250,6 +257,34 @@ button i {
     }
   }
   #about-text {
-    max-width: 25% !important;
+    max-width: 50% !important;
+  }
+  #more-about{
+    margin-left: 20% !important;
+  }
+  #develop, #design{
+    max-width: 45%;
+  }
+  #available-text {
+    padding-right: 25%;
+    padding-left: 25%;
+  }
+}
+
+/*769px — 1024px: Small screens, laptops.*/
+@media only screen and (min-width: 1024px) {
+
+}
+/*1025px — 1200px: Desktops, large screens.*/
+@media only screen and (min-width: 1200px) {
+  #ball1 {
+    left: 20%;
+  }
+  #ball2 {
+    left: 37%;
+    background-color: #ffffff;
+  }
+  #ball3 {
+    left: 50%;
   }
 }
