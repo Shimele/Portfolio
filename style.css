@@ -144,9 +144,12 @@ body {
   font-weight: 700;
   color: rgb(252, 136, 78);
 }
-#develop,
 #design {
   margin-bottom: 5%;
+  font-family: "Montserrat", sans-serif;
+}
+#develop {
+  margin-bottom: 8%;
   font-family: "Montserrat", sans-serif;
 }
 #second-about h4 {
