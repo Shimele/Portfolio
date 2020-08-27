@@ -144,7 +144,8 @@ body {
   font-weight: 700;
   color: rgb(252, 136, 78);
 }
-#develop, #design {
+#develop,
+#design {
   margin-bottom: 5%;
   font-family: "Montserrat", sans-serif;
 }
@@ -155,7 +156,7 @@ body {
   line-height: 1.1;
   background-color: #f6b595;
 }
-.wecandothis h1 {
+.wecandothis div {
   font-family: "Indie Flower", cursive;
   font-size: 50px;
   font-weight: 500;
@@ -259,10 +260,11 @@ button i {
   #about-text {
     max-width: 50% !important;
   }
-  #more-about{
+  #more-about {
     margin-left: 20% !important;
   }
-  #develop, #design{
+  #develop,
+  #design {
     max-width: 45%;
   }
   #available-text {
@@ -273,7 +275,6 @@ button i {
 
 /*769px — 1024px: Small screens, laptops.*/
 @media only screen and (min-width: 1024px) {
-
 }
 /*1025px — 1200px: Desktops, large screens.*/
 @media only screen and (min-width: 1200px) {
