@@ -77,7 +77,7 @@ body {
   border-radius: 50%;
   box-shadow: 25px 10px 0px 0px #fff;
   z-index: -4;
-  transform: rotate(160deg);
+  transform: rotate(155deg);
 }
 .ball {
   display: inline-block;
