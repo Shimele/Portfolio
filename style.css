@@ -52,7 +52,7 @@ body {
   background-color: transparent;
   border-radius: 50%;
   box-shadow: 25px 10px 0px 0px #fff;
-  z-index: -4;
+  z-index: -5;
 }
 #moon1 {
   top: 10;
@@ -389,8 +389,5 @@ button i {
   }
   #ball3 {
     left: 50%;
-  }
-  #about #profile {
-    display: none;
   }
 }
