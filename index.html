@@ -16,17 +16,12 @@
     <div id="home">
       <div class="ui container">
         <div class="ui borderless menu">
-          <div
-            class="center aligned item"
-            data-aos="fade-down-right"
-            data-aos-duration="2000"
-          >
-            <img
-              class="ui small circular image"
-              id="profile"
-              src="images/profile.jpeg"
-            />
-          </div>
+          <img
+            class="ui tiny circular image"
+            id="profile"
+            src="images/profile.jpeg"
+          />
+
           <a
             class="item"
             href="#about-text"
@@ -34,7 +29,12 @@
             data-aos-duration="300"
             >WHO</a
           >
-          <a class="item" data-aos="fade-left" data-aos-duration="600">
+          <a
+            class="item"
+            href="projects.html"
+            data-aos="fade-left"
+            data-aos-duration="600"
+          >
             WHAT
           </a>
 
@@ -93,27 +93,19 @@
       </div>
     </div>
     <div class="container" id="about">
-      <div
-        class="ui basic center aligned padded segment"
-        data-aos="fade-down-right"
-        data-aos-duration="1500"
-      >
-        <img
-          class="ui small circular centered image"
-          id="profile"
-          src="images/profile.jpeg"
-        />
-        <div
-          class="ui basic padded segment"
-          data-aos="fade-left"
-          data-aos-duration="1000"
-        >
+      <img
+        class="ui tiny centered image"
+        id="profile"
+        src="images/profile.jpeg"
+      />
+      <div class="ui basic center aligned padded segment">
+        <div class="ui basic padded segment hi">
           <h2>HI.</h2>
         </div>
         <div class="ui center aligned container" id="about-text">
           <div class="ball" id="ball4"></div>
           <div class="ball" id="ball7"></div>
-          <p data-aos="fade-right" data-aos-duration="1000">
+          <p data-aos="zoom-out-right" data-aos-duration="1500">
             I'm a web developer based in Yaounde, Cameroon. I have a passion for
             web design and love to create for web and mobile devices.
           </p>
@@ -241,11 +233,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
-    <script src="script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-    <script>
-      AOS.init();
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
