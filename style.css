@@ -356,6 +356,9 @@ button i {
       margin-left: 0%;
     }
   }
+  #about #profile {
+    display: none;
+  }
   #about-text {
     max-width: 50% !important;
   }
