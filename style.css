@@ -390,4 +390,7 @@ button i {
   #ball3 {
     left: 50%;
   }
+  #about #profile {
+    display: none;
+  }
 }
