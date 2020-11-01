@@ -16,22 +16,33 @@ body {
 }
 @keyframes rotate {
   to {
-    transform: rotate(360deg);
+    transform: rotate(-360deg);
   }
 }
 
-#intro h2 {
+#intro h1 {
   position: absolute;
-  top: 30%;
+  top: 10%;
   left: 30%;
   color: white;
   z-index: 2;
+}
+.column h2 {
+  color: white !important;
 }
 
 .projects {
   color: #ffffff;
 }
+.ui.horizontal.divider p {
+  color: #fdaa81;
+  font-size: 50px;
+  opacity: 0.3;
+}
 
+.hiddenB {
+  display: none;
+}
 .animation {
   animation: rotate 3s linear infinite;
   animation-play-state: paused;
@@ -45,7 +56,7 @@ body {
   }
 }
 #description-column {
-  margin-top: 10%;
+  margin-top: 5%;
 }
 #movie1 {
   margin: 0 auto;
@@ -53,42 +64,17 @@ body {
 #movie2 {
   display: none;
 }
-#first-project #description-column::before {
+#first-project::before {
   position: absolute;
   content: "Javascript";
+  transform: rotate(45deg);
   margin-top: 90%;
+  margin-left: 7%;
   color: #f6b595;
-  font-size: 75px;
+  font-size: 65px;
   z-index: -2;
   opacity: 0.1;
-  animation: rotate 3s linear infinite;
-  animation-play-state: paused;
-  animation-delay: calc(var(--scroll) * -1s);
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
-}
-#third-project::before {
-  position: absolute;
-  content: "React";
-  margin-top: 90%;
-  color: #f6b595;
-  font-size: 100px;
-  z-index: -2;
-  opacity: 0.1;
-  animation: rotate 3s linear infinite;
-  animation-play-state: paused;
-  animation-delay: calc(var(--scroll) * -1s);
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
-}
-#fourth-project::before {
-  position: absolute;
-  content: "React";
-  margin-top: 90%;
-  color: #f6b595;
-  font-size: 100px;
-  z-index: -2;
-  opacity: 0.1;
+  letter-spacing: 0.3em;
   animation: rotate 3s linear infinite;
   animation-play-state: paused;
   animation-delay: calc(var(--scroll) * -1s);
@@ -97,12 +83,14 @@ body {
 }
 #fifth-project::before {
   position: absolute;
-  content: "Javascript";
-  margin-top: 90%;
+  content: "ReactJS";
+  transform: rotate(-135deg);
+  margin-top: 15%;
   color: #f6b595;
-  font-size: 65px;
+  font-size: 75px;
   z-index: -2;
   opacity: 0.1;
+  letter-spacing: 0.7em;
   animation: rotate 3s linear infinite;
   animation-play-state: paused;
   animation-delay: calc(var(--scroll) * -1s);
@@ -112,14 +100,58 @@ body {
 #sixth-project::after {
   position: absolute;
   content: "HTML+CSS";
+  transform: rotate(350deg);
   margin-top: 70%;
   color: #f6b595;
-  font-size: 75px;
+  font-size: 55px;
   z-index: -2;
   opacity: 0.1;
+  letter-spacing: 0.1em;
   animation: rotate 3s linear infinite;
   animation-play-state: paused;
   animation-delay: calc(var(--scroll) * -1s);
   animation-iteration-count: 1;
   animation-fill-mode: both;
+}
+
+@media only screen and (min-width: 481px) {
+  .ui.container {
+    max-width: 90% !important;
+  }
+  #intro h1 {
+    top: 35%;
+    left: 20%;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .svg {
+    margin-left: 40%;
+  }
+  #intro h1 {
+    top: 35%;
+    left: 28%;
+  }
+  .hiddenB {
+    display: block;
+  }
+  .hiddenA {
+    display: none;
+  }
+
+  #first-project::before {
+    margin-top: 45%;
+    font-size: 100px;
+    letter-spacing: 0.7em;
+    opacity: 0.05;
+  }
+  #fifth-project::before {
+    margin-top: 0;
+    font-size: 75px;
+    letter-spacing: 0.6em;
+    opacity: 0.05;
+  }
+  #sixth-project::after {
+    margin-top: 10%;
+    opacity: 0.05;
+  }
 }
