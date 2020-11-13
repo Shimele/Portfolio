@@ -12,5 +12,5 @@ window.addEventListener(
 );
 //for AOS animation
 AOS.init();
-//semantic UI animation
-$(".autumn.leaf").transition("fade");
+
+
