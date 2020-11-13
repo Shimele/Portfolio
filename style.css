@@ -80,9 +80,7 @@ body {
   z-index: -4;
   transform: rotate(155deg);
 }*/
-#ball-section .segment{
-  
-}
+
 .ball {
   display: inline-block;
   width: 200px;
@@ -96,16 +94,16 @@ body {
   transform: scale(1.5);
 }
 #ball1 {
-  left: 10%;
+  left: 7%;
   z-index: -1;
 }
 #ball2 {
-  left: 35%;
+  left: 28%;
   z-index: -3;
   background-color: #CD8736;
 }
 #ball3 {
-  left: 60%;
+  left: 50%;
   z-index: -2;
 }
 #ball4 {
@@ -120,7 +118,7 @@ body {
 #ball5 {
   width: 180px;
   height: 180px;
-  left: 45%;
+  left: 40%;
   border-radius: 50%;
   opacity: 0.1;
   background-color: #FCB5C1;
@@ -137,7 +135,7 @@ body {
   display: none;
 }
 #about {
-  margin-right: 0;
+  margin: 0 auto;
   margin-top: 11.8%;
   padding-top: 5%;
   background-color: #ffffff;
@@ -267,24 +265,6 @@ button i {
   #introduction {
     background-color: #FCB5C1;
     
-  }
- 
-  #moon1 {
-    display: none;
-    margin: auto;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100px;
-    height: 100px;
-    background-color: transparent;
-    border-radius: 50%;
-    box-shadow: 25px 10px 0px 0px #E3A265;
-    z-index: 1;
-  }
-  #moon2 {
-    display: none;
   }
   .ball {
     display: inline-block;
