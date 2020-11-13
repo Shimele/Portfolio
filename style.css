@@ -3,16 +3,18 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #000000;
+  background-color: #FCB5C1;
 }
 #home {
+  background-color: #FCB5C1;
+  padding-top: 10%;
 }
 .ui.menu {
   border: 0 none !important;
   box-shadow: none;
   font-family: "Montserrat", sans-serif;
-  background-color: #000000;
-  color: rgb(252, 136, 78);
+  background-color: #FCB5C1;
+  color: #ffffff;
   padding-bottom: 10%;
 }
 .ui.menu img {
@@ -20,18 +22,16 @@ body {
 }
 .ui.menu a:hover {
   text-decoration: none;
-  color: #ffffff !important;
+  color: #5E9734 !important;
 }
 .ui.menu a:active {
   background: none !important;
-  color: #f6b595;
+  color: #FCB5C1;
 }
 .ui.menu .item {
   color: #ffffff;
   font-weight: 600;
   font-size: large;
-}
-#introduction {
 }
 
 #introduction h2 {
@@ -39,13 +39,14 @@ body {
   font-size: 60px;
   font-weight: 500;
   line-height: 1.1;
-  color: rgb(252, 136, 78);
+  color: #ffffff;
 }
 #introduction h4 {
   font-family: "Montserrat", sans-serif;
-  color: rgb(252, 136, 78);
+  color: #5E9734;
 }
-.moon {
+/*.moon {
+  display: none;
   position: absolute;
   width: 100px;
   height: 100px;
@@ -78,13 +79,16 @@ body {
   box-shadow: 25px 10px 0px 0px #fff;
   z-index: -4;
   transform: rotate(155deg);
+}*/
+#ball-section .segment{
+  
 }
 .ball {
   display: inline-block;
   width: 200px;
   height: 100px;
   border-radius: 150px 150px 0 0;
-  background-color: #f6b595;
+  background-color: #ffffff;
   position: absolute;
   transition: all 0.5s ease-in-out;
 }
@@ -96,12 +100,12 @@ body {
   z-index: -1;
 }
 #ball2 {
-  left: 27%;
+  left: 35%;
   z-index: -3;
-  background-color: #ffffff;
+  background-color: #CD8736;
 }
 #ball3 {
-  left: 40%;
+  left: 60%;
   z-index: -2;
 }
 #ball4 {
@@ -110,7 +114,7 @@ body {
   left: 10%;
   border-radius: 50%;
   opacity: 0.1;
-  background: #ffffff;
+  background: #FCB5C1;
 }
 
 #ball5 {
@@ -119,7 +123,7 @@ body {
   left: 45%;
   border-radius: 50%;
   opacity: 0.1;
-  background-color: #ffffff;
+  background-color: #FCB5C1;
 }
 #ball6 {
   width: 200px;
@@ -136,8 +140,8 @@ body {
   margin-right: 0;
   margin-top: 11.8%;
   padding-top: 5%;
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
 }
 #about #profile {
   margin-top: 11.8%;
@@ -154,7 +158,7 @@ body {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background-color: #f6b595;
+  background-color:#E61A8D;
   opacity: 0.5;
   transition: all 0.2s ease-in-out;
 }
@@ -167,7 +171,7 @@ body {
   font-size: 40px;
   font-weight: 500;
   line-height: 1.1;
-  color: rgb(252, 136, 78);
+  color: #fa97a8;
 }
 #second-about {
   margin-top: 5%;
@@ -180,7 +184,7 @@ body {
   margin-top: 5%;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  color: rgb(252, 136, 78);
+  color: #5E9734;
 }
 #design {
   margin-bottom: 5%;
@@ -195,14 +199,14 @@ body {
   font-size: 60px;
   font-weight: 500;
   line-height: 1.1;
-  background-color: #f6b595;
+  background-color: #5E9734;
 }
 .wecandothis h1 {
   font-family: "Indie Flower", cursive;
   font-size: 40px;
   font-weight: 500;
   line-height: 1.1;
-  color: rgb(252, 136, 78);
+  color: #fa97a8;
 }
 .available {
   font-family: "Montserrat", sans-serif;
@@ -221,7 +225,7 @@ button i {
   color: #ffffff;
 }
 #call {
-  color: rgb(252, 136, 78);
+  color: #FCB5C1;
   font-family: "Montserrat", sans-serif;
 }
 #footer {
@@ -229,7 +233,7 @@ button i {
   background-color: #000000;
 }
 #footer i {
-  color: rgb(252, 136, 78);
+  color: #FCB5C1;
 }
 .footer-dot {
   margin-right: 10%;
@@ -237,7 +241,7 @@ button i {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background-color: #f6b595;
+  background-color: #FCB5C1;
   opacity: 0.2;
 }
 
@@ -251,13 +255,22 @@ button i {
 
 /*481px — 768px: iPads, Tablets.*/
 @media only screen and (min-width: 768px) {
+  #home {
+    padding-top: 10%;
+  }
   .ui.menu {
     padding-bottom: 0;
   }
   .ui.menu img {
     display: block;
   }
+  #introduction {
+    background-color: #FCB5C1;
+    
+  }
+ 
   #moon1 {
+    display: none;
     margin: auto;
     top: 0;
     right: 0;
@@ -267,8 +280,8 @@ button i {
     height: 100px;
     background-color: transparent;
     border-radius: 50%;
-    box-shadow: 25px 10px 0px 0px #fff;
-    z-index: -1;
+    box-shadow: 25px 10px 0px 0px #E3A265;
+    z-index: 1;
   }
   #moon2 {
     display: none;
@@ -301,7 +314,7 @@ button i {
     margin-top: 35%;
     margin-left: 25%;
     content: "Web Designer";
-    color: #000000;
+    color: #5E9734;
     font-weight: bold;
     opacity: 1;
   }
@@ -311,7 +324,7 @@ button i {
     margin-top: 50%;
     margin-left: 10%;
     content: "I Codes my breakfast";
-    color: #000000;
+    color: #5E9734;
     font-weight: bold;
     opacity: 1;
     animation: rotate 1s linear infinite;
@@ -336,7 +349,7 @@ button i {
     animation-name: slidein;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    background-color: #ffffff;
+    background-color: #FCB5C1;
   }
   #ball7::before {
     display: block;
@@ -344,7 +357,7 @@ button i {
     margin-top: 35%;
     margin-left: 25%;
     content: "Web Developer";
-    color: #000000;
+    color: #E03997;
     font-weight: bold;
   }
   @keyframes slidein {
@@ -384,8 +397,7 @@ button i {
     left: 20%;
   }
   #ball2 {
-    left: 37%;
-    background-color: #ffffff;
+    left: 35%;
   }
   #ball3 {
     left: 50%;
